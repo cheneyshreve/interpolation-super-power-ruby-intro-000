@@ -8,6 +8,6 @@ def display_rainbow(colors)
     color_string.push("#{colors[i].chars.first.upcase}" + ": " + "#{colors[i].downcase}")
   end
 
-  print "#{color_string.join(", ")}"
+  puts "#{color_string.join(", ")}"
 
 end
