@@ -7,7 +7,7 @@ def display_rainbow(colors)
   n.times do |i|
     color_string.push("#{colors[i].chars.first.upcase}" + ": " + "#{colors[i].downcase}")
   end
-  
+
   print "#{color_string.join(", ")}"
-  
+
 end
